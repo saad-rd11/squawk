@@ -1,0 +1,2397 @@
+{
+  "Small Aircraft": [
+    "UNKN",
+    "Small Aircraft",
+    "Unknown"
+  ],
+  "Small Aircraft; High Wing; 1 Eng; Fixed Gear": [
+    "UNKN",
+    "Small Aircraft",
+    "Unknown"
+  ],
+  "Small Aircraft; High Wing; 1 Eng; Retractable Gear": [
+    "UNKN",
+    "Small Aircraft",
+    "Unknown"
+  ],
+  "Small Aircraft; Low Wing; 1 Eng; Fixed Gear": [
+    "UNKN",
+    "Small Aircraft",
+    "Unknown"
+  ],
+  "Small Aircraft; Low Wing; 1 Eng; Retractable Gear": [
+    "UNKN",
+    "Small Aircraft",
+    "Unknown"
+  ],
+  "Small Aircraft; Low Wing; 2 Eng; Retractable Gear": [
+    "UNKN",
+    "Small Aircraft",
+    "Unknown"
+  ],
+  "Small Transport": [
+    "UNKN",
+    "Small Transport",
+    "Unknown"
+  ],
+  "Small Transport; Low Wing; 2 Recip Eng": [
+    "UNKN",
+    "Small Transport",
+    "Unknown"
+  ],
+  "Small Transport; Low Wing; 2 Turbojet Eng": [
+    "UNKN",
+    "Small Transport",
+    "Unknown"
+  ],
+  "Small Transport; Low Wing; 2 Turboprop Eng": [
+    "UNKN",
+    "Small Transport",
+    "Unknown"
+  ],
+  "Medium Transport": [
+    "UNKN",
+    "Medium Transport",
+    "Unknown"
+  ],
+  "Medium Transport; High Wing; 2 Turboprop Eng": [
+    "UNKN",
+    "Medium Transport",
+    "Unknown"
+  ],
+  "Medium Transport; Low Wing; 2 Turbojet Eng": [
+    "UNKN",
+    "Medium Transport",
+    "Unknown"
+  ],
+  "Medium Transport; Low Wing; 2 Turboprop Eng": [
+    "UNKN",
+    "Medium Transport",
+    "Unknown"
+  ],
+  "Medium Large Transport": [
+    "UNKN",
+    "Medium Transport",
+    "Unknown"
+  ],
+  "Medium Large Transport; Low Wing; 2 Turbojet Eng": [
+    "UNKN",
+    "Medium Transport",
+    "Unknown"
+  ],
+  "Large Transport": [
+    "UNKN",
+    "Large Transport",
+    "Unknown"
+  ],
+  "Large Transport; Low Wing; 2 Turbojet Eng": [
+    "UNKN",
+    "Large Transport",
+    "Unknown"
+  ],
+  "Large Transport; Low Wing; 3 Turbojet Eng": [
+    "UNKN",
+    "Large Transport",
+    "Unknown"
+  ],
+  "Light Transport": [
+    "UNKN",
+    "Light Transport",
+    "Unknown"
+  ],
+  "Light Transport; High Wing; 2 Turboprop Eng": [
+    "UNKN",
+    "Light Transport",
+    "Unknown"
+  ],
+  "Light Transport; Low Wing; 2 Turbojet Eng": [
+    "UNKN",
+    "Light Transport",
+    "Unknown"
+  ],
+  "Light Transport; Low Wing; 2 Turboprop Eng": [
+    "UNKN",
+    "Light Transport",
+    "Unknown"
+  ],
+  "Heavy Transport": [
+    "UNKN",
+    "Heavy Transport",
+    "Unknown"
+  ],
+  "Heavy Transport; Low Wing; 4 Turbojet Eng": [
+    "UNKN",
+    "Heavy Transport",
+    "Unknown"
+  ],
+  "Widebody Transport": [
+    "UNKN",
+    "Widebody Transport",
+    "Unknown"
+  ],
+  "Widebody; Low Wing; 2 Turbojet Eng": [
+    "UNKN",
+    "Widebody Transport",
+    "Unknown"
+  ],
+  "Widebody; Low Wing; 3 Turbojet Eng": [
+    "UNKN",
+    "Widebody Transport",
+    "Unknown"
+  ],
+  "Widebody; Low Wing; 4 Turbojet Eng": [
+    "UNKN",
+    "Widebody Transport",
+    "Unknown"
+  ],
+  "Commercial Fixed Wing": [
+    "UNKN",
+    "Commercial Fixed Wing",
+    "Unknown"
+  ],
+  "commercial fixed wing": [
+    "UNKN",
+    "Commercial Fixed Wing",
+    "Unknown"
+  ],
+  "small aircraft": [
+    "UNKN",
+    "Small Aircraft",
+    "Unknown"
+  ],
+  "No Aircraft": [
+    "NONE",
+    "None",
+    "None"
+  ],
+  "Any Unknown or Unlisted Aircraft Manufacturer": [
+    "UNKN",
+    "Unknown",
+    "Unknown"
+  ],
+  "Helicopter": [
+    "UNKN",
+    "Helicopter",
+    "Unknown"
+  ],
+  "Balloon": [
+    "UNKN",
+    "Balloon",
+    "Unknown"
+  ],
+  "Sail Plane": [
+    "UNKN",
+    "Glider",
+    "Unknown"
+  ],
+  "Ultralight": [
+    "UNKN",
+    "Ultralight",
+    "Unknown"
+  ],
+  "Light Sport Aircraft": [
+    "UNKN",
+    "Light Sport Aircraft",
+    "Unknown"
+  ],
+  "Seaplane or Amphibian": [
+    "UNKN",
+    "Amphibian",
+    "Unknown"
+  ],
+  "Amateur/Home Built/Experimental": [
+    "UNKN",
+    "Experimental",
+    "Unknown"
+  ],
+  "Aerobatic": [
+    "UNKN",
+    "Aerobatic",
+    "Unknown"
+  ],
+  "Fighter": [
+    "UNKN",
+    "Fighter",
+    "Unknown"
+  ],
+  "Military": [
+    "UNKN",
+    "Military",
+    "Unknown"
+  ],
+  "Military Bomber": [
+    "UNKN",
+    "Military",
+    "Unknown"
+  ],
+  "Military Trainer": [
+    "UNKN",
+    "Military",
+    "Unknown"
+  ],
+  "Military Transport": [
+    "UNKN",
+    "Military",
+    "Unknown"
+  ],
+  "Other": [
+    "UNKN",
+    "Other",
+    "Unknown"
+  ],
+  "Single Engine Turboprop Undifferentiated": [
+    "UNKN",
+    "Single Engine Turboprop",
+    "Unknown"
+  ],
+  "B2 Spirit/Bomber": [
+    "B2",
+    "B-2 family",
+    "Northrop Grumman"
+  ],
+  "Airliner 99": [
+    "UNKN",
+    "General Aviation",
+    "Unknown"
+  ],
+  "Airfield Extreme Undifferentiated": [
+    "UNKN",
+    "Ultralight",
+    "Unknown"
+  ],
+  "Aerial Agriculture Undifferentiated": [
+    "UNKN",
+    "Agricultural",
+    "Unknown"
+  ],
+  "UAV - Unpiloted Aerial Vehicle": [
+    "UAV",
+    "UAV",
+    "Unknown"
+  ],
+  "UAV: Unpiloted Aerial Vehicle": [
+    "UAV",
+    "UAV",
+    "Unknown"
+  ],
+  "Airbus Undifferentiated UAS": [
+    "UAV",
+    "UAV",
+    "Unknown"
+  ],
+  "Large UAS (At or above 1320 lbs)": [
+    "UAV",
+    "UAV",
+    "Unknown"
+  ],
+  "Large UAS; Fixed Wing": [
+    "UAV",
+    "UAV",
+    "Unknown"
+  ],
+  "Medium UAS (At or above 55 lbs and less than 1320 lbs)": [
+    "UAV",
+    "UAV",
+    "Unknown"
+  ],
+  "Medium UAS; Hybrid": [
+    "UAV",
+    "UAV",
+    "Unknown"
+  ],
+  "Micro UAS; Multirotor": [
+    "UAV",
+    "UAV",
+    "Unknown"
+  ],
+  "Small UAS (At or above 0.55 lbs and less than 55 lbs)": [
+    "UAV",
+    "UAV",
+    "Unknown"
+  ],
+  "Small UAS; Multi Rotor": [
+    "UAV",
+    "UAV",
+    "Unknown"
+  ],
+  "DJI Air 2S": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI FPV": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Inspire 2": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI M30T": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Matrice 210": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Matrice 300 RTK": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Matrice 600 Pro": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Mavic 2 Enterprise": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Mavic 2 Enterprise Advanced": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Mavic 2 Pro": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Mavic 2 Zoom": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Mavic 3": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Mavic 3 Enterprise": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Mavic Air 2": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Mavic Mini": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Mavic Pro": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Mini 2": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Mini 3 Pro": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Phantom 3 Professional": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Phantom 4 Pro": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Phantom 4 Pro V2": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Phantom 4 RTK": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Spark": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "DJI Undifferentiated": [
+    "UAV",
+    "UAV",
+    "DJI"
+  ],
+  "Autel Robotics Evo II": [
+    "UAV",
+    "UAV",
+    "Autel"
+  ],
+  "Deerc DE22": [
+    "UAV",
+    "UAV",
+    "Deerc"
+  ],
+  "FreeFly Systems Alta X": [
+    "UAV",
+    "UAV",
+    "FreeFly"
+  ],
+  "Holy Stone HS720": [
+    "UAV",
+    "UAV",
+    "Holy"
+  ],
+  "Holy Stone HS750": [
+    "UAV",
+    "UAV",
+    "Holy"
+  ],
+  "Parrot Anafi": [
+    "UAV",
+    "UAV",
+    "Parrot"
+  ],
+  "Parrot Anafi Thermal": [
+    "UAV",
+    "UAV",
+    "Parrot"
+  ],
+  "Skydio 2": [
+    "UAV",
+    "UAV",
+    "Skydio"
+  ],
+  "Skydio X2E": [
+    "UAV",
+    "UAV",
+    "Skydio"
+  ],
+  "UVify IFO": [
+    "UAV",
+    "UAV",
+    "UVify"
+  ],
+  "B737-800": [
+    "B738",
+    "B737 family",
+    "Boeing"
+  ],
+  "B737-700": [
+    "B737",
+    "B737 family",
+    "Boeing"
+  ],
+  "B737-900": [
+    "B739",
+    "B737 family",
+    "Boeing"
+  ],
+  "B737 Undifferentiated or Other Model": [
+    "UNKN",
+    "B737 family",
+    "Boeing"
+  ],
+  "B737 Next Generation Undifferentiated": [
+    "UNKN",
+    "B737 family",
+    "Boeing"
+  ],
+  "B737-300": [
+    "B733",
+    "B737 family",
+    "Boeing"
+  ],
+  "B737-400": [
+    "B734",
+    "B737 family",
+    "Boeing"
+  ],
+  "B737-500": [
+    "B735",
+    "B737 family",
+    "Boeing"
+  ],
+  "B737 MAX 8": [
+    "B38M",
+    "B737 family",
+    "Boeing"
+  ],
+  "B737 MAX 9": [
+    "B39M",
+    "B737 family",
+    "Boeing"
+  ],
+  "B737 MAX Series Undifferentiated": [
+    "UNKN",
+    "B737 family",
+    "Boeing"
+  ],
+  "B717 (Formerly MD-95)": [
+    "B712",
+    "B717 family",
+    "Boeing"
+  ],
+  "B727-200": [
+    "B722",
+    "B727 family",
+    "Boeing"
+  ],
+  "B747-400": [
+    "B744",
+    "B747 family",
+    "Boeing"
+  ],
+  "B747 Undifferentiated or Other Model": [
+    "UNKN",
+    "B747 family",
+    "Boeing"
+  ],
+  "B747-800 Advanced": [
+    "B748",
+    "B747 family",
+    "Boeing"
+  ],
+  "B757-200": [
+    "B752",
+    "B757 family",
+    "Boeing"
+  ],
+  "B757-300": [
+    "B753",
+    "B757 family",
+    "Boeing"
+  ],
+  "B757 Undifferentiated or Other Model": [
+    "UNKN",
+    "B757 family",
+    "Boeing"
+  ],
+  "B767-200": [
+    "B762",
+    "B767 family",
+    "Boeing"
+  ],
+  "B767-300 and 300 ER": [
+    "B763",
+    "B767 family",
+    "Boeing"
+  ],
+  "B767-400 and 400 ER": [
+    "B764",
+    "B767 family",
+    "Boeing"
+  ],
+  "B767 Undifferentiated or Other Model": [
+    "UNKN",
+    "B767 family",
+    "Boeing"
+  ],
+  "B777-200": [
+    "B772",
+    "B777 family",
+    "Boeing"
+  ],
+  "B777-300": [
+    "B773",
+    "B777 family",
+    "Boeing"
+  ],
+  "B777 Undifferentiated or Other Model": [
+    "UNKN",
+    "B777 family",
+    "Boeing"
+  ],
+  "B787-1000": [
+    "B78X",
+    "B787 family",
+    "Boeing"
+  ],
+  "B787-800": [
+    "B788",
+    "B787 family",
+    "Boeing"
+  ],
+  "B787-900": [
+    "B789",
+    "B787 family",
+    "Boeing"
+  ],
+  "B787 Dreamliner Undifferentiated or Other Model": [
+    "UNKN",
+    "B787 family",
+    "Boeing"
+  ],
+  "Boeing Company Undifferentiated or Other Model": [
+    "UNKN",
+    "Boeing",
+    "Boeing"
+  ],
+  "DC-3/Dakota/Skytrain": [
+    "DC31",
+    "DC-3 family",
+    "Douglas"
+  ],
+  "DC-10 30": [
+    "DC10",
+    "DC-10 family",
+    "Douglas"
+  ],
+  "DC-10 Undifferentiated or Other Model": [
+    "UNKN",
+    "DC-10 family",
+    "Douglas"
+  ],
+  "MD-11": [
+    "MD11",
+    "MD-11 family",
+    "Boeing"
+  ],
+  "McDonnell Douglas Undifferentiated or Other Model": [
+    "UNKN",
+    "McDonnell Douglas",
+    "McDonnell Douglas"
+  ],
+  "A300": [
+    "A300",
+    "A300 family",
+    "Airbus"
+  ],
+  "A319": [
+    "A319",
+    "A320 family",
+    "Airbus"
+  ],
+  "A320": [
+    "A320",
+    "A320 family",
+    "Airbus"
+  ],
+  "A321": [
+    "A321",
+    "A320 family",
+    "Airbus"
+  ],
+  "A330": [
+    "A330",
+    "A330 family",
+    "Airbus"
+  ],
+  "A350": [
+    "A350",
+    "A350 family",
+    "Airbus"
+  ],
+  "A380": [
+    "A380",
+    "A380 family",
+    "Airbus"
+  ],
+  "A220-100": [
+    "BCS1",
+    "A220 family",
+    "Airbus"
+  ],
+  "A220-300": [
+    "BCS3",
+    "A220 family",
+    "Airbus"
+  ],
+  "Airbus 318/319/320/321 Undifferentiated": [
+    "UNKN",
+    "A320 family",
+    "Airbus"
+  ],
+  "EMB ERJ 135 ER/LR": [
+    "E135",
+    "ERJ family",
+    "Embraer"
+  ],
+  "EMB ERJ 140 ER/LR": [
+    "E135",
+    "ERJ family",
+    "Embraer"
+  ],
+  "EMB ERJ 145 ER/LR": [
+    "E145",
+    "ERJ family",
+    "Embraer"
+  ],
+  "EMB-505 / Phenom 300": [
+    "E55P",
+    "Phenom family",
+    "Embraer"
+  ],
+  "Brasilia EMB-120 All Series": [
+    "E120",
+    "EMB 120 family",
+    "Embraer"
+  ],
+  "Embraer Legacy 450/500": [
+    "E35L",
+    "Embraer",
+    "Embraer"
+  ],
+  "Embraer Legacy 600 (EMB135BJ)": [
+    "E35L",
+    "Embraer",
+    "Embraer"
+  ],
+  "Embraer Phenom 100": [
+    "E50P",
+    "Embraer",
+    "Embraer"
+  ],
+  "Embraer Jet Undifferentiated or Other Model": [
+    "UNKN",
+    "Embraer",
+    "Embraer"
+  ],
+  "Regional Jet 200 ER/LR (CRJ200)": [
+    "CRJ2",
+    "CRJ family",
+    "Bombardier"
+  ],
+  "Regional Jet 700 ER/LR (CRJ700)": [
+    "CRJ7",
+    "CRJ family",
+    "Bombardier"
+  ],
+  "Regional Jet CL65; Undifferentiated or Other Model": [
+    "UNKN",
+    "CRJ family",
+    "Bombardier"
+  ],
+  "Bombardier/Canadair Undifferentiated or Other Model": [
+    "UNKN",
+    "Bombardier",
+    "Bombardier"
+  ],
+  "Bombardier Learjet Undifferentiated or Other Model": [
+    "UNKN",
+    "Learjet",
+    "Bombardier"
+  ],
+  "Challenger 300": [
+    "CL30",
+    "Challenger family",
+    "Bombardier"
+  ],
+  "Challenger 350": [
+    "CL35",
+    "Challenger family",
+    "Bombardier"
+  ],
+  "Challenger 605": [
+    "CL60",
+    "Challenger family",
+    "Bombardier"
+  ],
+  "Challenger 650": [
+    "CL60",
+    "Challenger family",
+    "Bombardier"
+  ],
+  "Challenger CL600": [
+    "CL60",
+    "Challenger family",
+    "Bombardier"
+  ],
+  "Challenger CL601": [
+    "CL60",
+    "Challenger family",
+    "Bombardier"
+  ],
+  "Challenger CL604": [
+    "CL60",
+    "Challenger family",
+    "Bombardier"
+  ],
+  "Challenger Jet Undifferentiated or Other Model": [
+    "UNKN",
+    "Challenger",
+    "Bombardier"
+  ],
+  "Global 5000 (Bombardier)": [
+    "GLEX",
+    "Global family",
+    "Bombardier"
+  ],
+  "Global Express (BD700)": [
+    "GLEX",
+    "Global family",
+    "Bombardier"
+  ],
+  "Dash 8-400": [
+    "DH8D",
+    "Dash 8 family",
+    "Bombardier"
+  ],
+  "Dash 8 Series Undifferentiated or Other Model": [
+    "UNKN",
+    "Dash 8 family",
+    "Bombardier"
+  ],
+  "Q400": [
+    "DH8D",
+    "Dash 8 family",
+    "Bombardier"
+  ],
+  "Twin Otter DHC-6": [
+    "DHC6",
+    "DHC-6 family",
+    "De Havilland"
+  ],
+  "Twin Otter DHC-6-300": [
+    "DHC6",
+    "DHC-6 family",
+    "De Havilland"
+  ],
+  "ATR 42": [
+    "AT42",
+    "ATR 42 family",
+    "ATR"
+  ],
+  "ATR 72": [
+    "AT72",
+    "ATR 72 family",
+    "ATR"
+  ],
+  "ATR Undifferentiated or Other Model": [
+    "UNKN",
+    "ATR",
+    "ATR"
+  ],
+  "Saab 340 Undifferentiated": [
+    "UNKN",
+    "Saab 340 family",
+    "Saab"
+  ],
+  "Saab-Scania Undifferentiated or Other Model": [
+    "UNKN",
+    "Saab",
+    "Saab"
+  ],
+  "Learjet 31": [
+    "LJ31",
+    "Learjet",
+    "Learjet"
+  ],
+  "Learjet 35": [
+    "LJ35",
+    "Learjet",
+    "Learjet"
+  ],
+  "Learjet 36": [
+    "LJ35",
+    "Learjet",
+    "Learjet"
+  ],
+  "Learjet 40": [
+    "LJ40",
+    "Learjet",
+    "Learjet"
+  ],
+  "Learjet 45": [
+    "LJ45",
+    "Learjet",
+    "Learjet"
+  ],
+  "Learjet 55": [
+    "LJ55",
+    "Learjet",
+    "Learjet"
+  ],
+  "Learjet 60": [
+    "LJ60",
+    "Learjet",
+    "Learjet"
+  ],
+  "Learjet 70": [
+    "LJ70",
+    "Learjet",
+    "Learjet"
+  ],
+  "Learjet 75": [
+    "LJ75",
+    "Learjet",
+    "Learjet"
+  ],
+  "Falcon 2000": [
+    "F2TH",
+    "Falcon",
+    "Dassault"
+  ],
+  "Falcon 20FJF/20C/20D/20E/20F": [
+    "FA20",
+    "Falcon",
+    "Dassault"
+  ],
+  "Falcon 50": [
+    "FA50",
+    "Falcon",
+    "Dassault"
+  ],
+  "Falcon 7X": [
+    "F7X",
+    "Falcon",
+    "Dassault"
+  ],
+  "Falcon 900": [
+    "F900",
+    "Falcon",
+    "Dassault"
+  ],
+  "Falcon Manufacturer Undifferentiated": [
+    "UNKN",
+    "Dassault Falcon",
+    "Dassault"
+  ],
+  "Dassault-Breguet Undifferentiated or Other Model": [
+    "UNKN",
+    "Falcon",
+    "Dassault"
+  ],
+  "PC-12": [
+    "PC12",
+    "PC12 family",
+    "Pilatus"
+  ],
+  "PC-24": [
+    "PC24",
+    "PC24 family",
+    "Pilatus"
+  ],
+  "Pilatus Undifferentiated": [
+    "UNKN",
+    "Pilatus",
+    "Pilatus"
+  ],
+  "U2/TRI": [
+    "U2",
+    "U-2 family",
+    "Lockheed"
+  ],
+  "Hercules (C-130)/L100/382": [
+    "C130",
+    "C-130 family",
+    "Lockheed"
+  ],
+  "Stratotanker 135": [
+    "K35E",
+    "KC-135 family",
+    "Boeing"
+  ],
+  "Globemaster (C-17)": [
+    "C17",
+    "C-17 family",
+    "Boeing"
+  ],
+  "Galaxy (C5A)": [
+    "C5",
+    "C-5 family",
+    "Lockheed"
+  ],
+  "Fighting Falcon F16": [
+    "F16",
+    "Military Jet",
+    "Lockheed Martin"
+  ],
+  "Freedom Fighter/Tiger II (F5)": [
+    "F5",
+    "Military Jet",
+    "Northrop"
+  ],
+  "F/A 18 Hornet/Super Hornet": [
+    "F18",
+    "Military Jet",
+    "McDonnell Douglas"
+  ],
+  "T45 (or T2C) Goshawk": [
+    "T45",
+    "Military Trainer",
+    "Unknown"
+  ],
+  "T6A Texan II / Harvard II (Raytheon)": [
+    "T6",
+    "Military Trainer",
+    "Unknown"
+  ],
+  "Talon (T38)": [
+    "T6",
+    "Military Trainer",
+    "Unknown"
+  ],
+  "Texan T6/Harvard (Antique)": [
+    "T6",
+    "Military Trainer",
+    "Unknown"
+  ],
+  "Bird Dog 305/321": [
+    "BD30",
+    "Military",
+    "Unknown"
+  ],
+  "Mustang (P51)": [
+    "P51",
+    "P-51 family",
+    "North American"
+  ],
+  "Osprey (V22)": [
+    "V22",
+    "V-22 family",
+    "Bell Boeing"
+  ],
+  "Thunderbolt II (Warthog A-10)": [
+    "A10",
+    "A-10 family",
+    "Fairchild Republic"
+  ],
+  "Trojan (T28)": [
+    "T28",
+    "T-28 family",
+    "North American"
+  ],
+  "Tiger (F11)": [
+    "F11",
+    "F-11 family",
+    "Grumman"
+  ],
+  "Chinook (CH-47)": [
+    "CH47",
+    "CH-47 family",
+    "Boeing"
+  ],
+  "Cessna 120": [
+    "C120",
+    "Cessna 120 family",
+    "Cessna"
+  ],
+  "Cessna 140": [
+    "C140",
+    "Cessna 140 family",
+    "Cessna"
+  ],
+  "Cessna 150": [
+    "C150",
+    "Cessna 150 family",
+    "Cessna"
+  ],
+  "Cessna 152": [
+    "C152",
+    "Cessna 152 family",
+    "Cessna"
+  ],
+  "Cessna 170": [
+    "C170",
+    "Cessna 170 family",
+    "Cessna"
+  ],
+  "Cessna 310/T310C": [
+    "C310",
+    "Cessna 310 family",
+    "Cessna"
+  ],
+  "Cessna 337 Super Skymaster": [
+    "C337",
+    "Cessna 337 family",
+    "Cessna"
+  ],
+  "Cessna 340/340A": [
+    "C340",
+    "Cessna 340 family",
+    "Cessna"
+  ],
+  "Cessna 350": [
+    "C350",
+    "Cessna 350 family",
+    "Cessna"
+  ],
+  "Cessna 400": [
+    "C400",
+    "Cessna 400 series",
+    "Cessna"
+  ],
+  "Cessna 402/402C/B379 Businessliner/Utiliner": [
+    "C402",
+    "Cessna 400 series",
+    "Cessna"
+  ],
+  "Cessna 404 Titan": [
+    "C404",
+    "Cessna 400 series",
+    "Cessna"
+  ],
+  "Cessna 425/441 Conquest I/Conquest II": [
+    "C425",
+    "Cessna 400 series",
+    "Cessna"
+  ],
+  "Cessna 188 (Ag Wagon/Ag Truck/Ag Husky)": [
+    "C188",
+    "Cessna 188 family",
+    "Cessna"
+  ],
+  "Cessna Stationair/Turbo Stationair 6": [
+    "C206",
+    "Cessna",
+    "Cessna"
+  ],
+  "Cessna Aircraft Undifferentiated or Other Model": [
+    "UNKN",
+    "Cessna",
+    "Cessna"
+  ],
+  "Cessna Citation Undifferentiated or Other Model": [
+    "UNKN",
+    "Citation",
+    "Cessna"
+  ],
+  "Cessna Single Piston Undifferentiated or Other Model": [
+    "UNKN",
+    "Cessna",
+    "Cessna"
+  ],
+  "Cessna Twin Piston Undifferentiated or Other Model": [
+    "UNKN",
+    "Cessna",
+    "Cessna"
+  ],
+  "Cessna Twin Turboprop Undifferentiated or Other Model": [
+    "UNKN",
+    "Cessna",
+    "Cessna"
+  ],
+  "Caravan Undifferentiated": [
+    "UNKN",
+    "Cessna 208 family",
+    "Cessna"
+  ],
+  "Caravan 208A": [
+    "C208",
+    "Cessna 208 family",
+    "Cessna"
+  ],
+  "Caravan 208B": [
+    "C208",
+    "Cessna 208 family",
+    "Cessna"
+  ],
+  "Skyhawk 172/Cutlass 172": [
+    "C172",
+    "Cessna 172 family",
+    "Cessna"
+  ],
+  "Skylane 182/RG Turbo Skylane/RG": [
+    "C182",
+    "Cessna 182 family",
+    "Cessna"
+  ],
+  "Skywagon 185": [
+    "C185",
+    "Cessna 185 family",
+    "Cessna"
+  ],
+  "Cardinal 177/177RG": [
+    "C177",
+    "Cessna 177 family",
+    "Cessna"
+  ],
+  "Citation Excel (C560XL)": [
+    "C56X",
+    "Citation family",
+    "Cessna"
+  ],
+  "Citation I/SP (C501)": [
+    "C500",
+    "Citation family",
+    "Cessna"
+  ],
+  "Citation II S2/Bravo (C550)": [
+    "C525",
+    "Citation family",
+    "Cessna"
+  ],
+  "Citation II/SP (C551)": [
+    "C550",
+    "Citation family",
+    "Cessna"
+  ],
+  "Citation III; VI; VII (C650)": [
+    "C525",
+    "Citation family",
+    "Cessna"
+  ],
+  "Citation Latitude (C680A)": [
+    "C680A",
+    "Citation family",
+    "Cessna"
+  ],
+  "Citation V/Ultra/Encore (C560)": [
+    "C560",
+    "Citation family",
+    "Cessna"
+  ],
+  "Citation X (C750)": [
+    "C750",
+    "Citation family",
+    "Cessna"
+  ],
+  "Citationjet (C525/C526) - CJ I / II / III / IV": [
+    "C525",
+    "Citation family",
+    "Cessna"
+  ],
+  "PA-20 Pacer/PA-22 Tri-Pacer": [
+    "PA20",
+    "PA-20 family",
+    "Piper"
+  ],
+  "PA-23 Apache/Geronimo Apache": [
+    "PA23",
+    "PA-23 family",
+    "Piper"
+  ],
+  "PA-23-250 Aztec": [
+    "PA23",
+    "PA-23 family",
+    "Piper"
+  ],
+  "PA-24 Comanche": [
+    "PA24",
+    "PA-24 family",
+    "Piper"
+  ],
+  "PA-24 Turbo Comanche": [
+    "PA24",
+    "PA-24 family",
+    "Piper"
+  ],
+  "PA-25 Pawnee": [
+    "PA25",
+    "PA-25 family",
+    "Piper"
+  ],
+  "PA-28 Cherokee/Archer/Dakota/Pillan/Warrior": [
+    "P28A",
+    "PA-28 family",
+    "Piper"
+  ],
+  "PA-28R Cherokee Arrow All Series": [
+    "P28R",
+    "PA-28 family",
+    "Piper"
+  ],
+  "PA-30 Twin Comanche": [
+    "PA30",
+    "PA-30 family",
+    "Piper"
+  ],
+  "PA-31 Navajo/Chieftan/Mojave/T1040": [
+    "PA31",
+    "PA-31 family",
+    "Piper"
+  ],
+  "PA-31P Navajo P": [
+    "PA31",
+    "PA-31 family",
+    "Piper"
+  ],
+  "PA-31T Cheyenne I": [
+    "PA31",
+    "PA-31 family",
+    "Piper"
+  ],
+  "PA-32 Cherokee Six/Lance/Saratoga/6X": [
+    "PA32",
+    "PA-32 family",
+    "Piper"
+  ],
+  "PA-34 Seneca Undifferentiated": [
+    "PA34",
+    "PA-34 family",
+    "Piper"
+  ],
+  "PA-34-200 Seneca I": [
+    "PA34",
+    "PA-34 family",
+    "Piper"
+  ],
+  "PA-34-200T Turbo Seneca II": [
+    "PA34",
+    "PA-34 family",
+    "Piper"
+  ],
+  "PA-34-220T Turbo Seneca III": [
+    "PA34",
+    "PA-34 family",
+    "Piper"
+  ],
+  "PA-38 Tomahawk": [
+    "PA38",
+    "PA-38 family",
+    "Piper"
+  ],
+  "PA-42 Cheyenne IIA": [
+    "PAY2",
+    "PA-42 family",
+    "Piper"
+  ],
+  "PA-44 Seminole/Turbo Seminole": [
+    "PA44",
+    "PA-44 family",
+    "Piper"
+  ],
+  "PA-46 Malibu Meridian": [
+    "PA46",
+    "PA-46 family",
+    "Piper"
+  ],
+  "PA-46 Malibu/Malibu Mirage/Malibu Matrix": [
+    "PA46",
+    "PA-46 family",
+    "Piper"
+  ],
+  "PA-60 600 Aerostar": [
+    "AEST",
+    "Aerostar family",
+    "Piper"
+  ],
+  "PA-60 601/601P Aerostar": [
+    "AEST",
+    "Aerostar family",
+    "Piper"
+  ],
+  "PA-60 602 Aerostar": [
+    "AEST",
+    "Aerostar family",
+    "Piper"
+  ],
+  "Piper Single Turboprop Undifferentiated or Other Model": [
+    "UNKN",
+    "Piper",
+    "Piper"
+  ],
+  "Piper Single Undifferentiated or Other Model": [
+    "UNKN",
+    "Piper",
+    "Piper"
+  ],
+  "Piper Twin Piston Undifferentiated or Other Model": [
+    "UNKN",
+    "Piper",
+    "Piper"
+  ],
+  "Piper Aircraft Corp Undifferentiated or Other Model": [
+    "UNKN",
+    "Piper",
+    "Piper"
+  ],
+  "J3 Cub": [
+    "PA11",
+    "PA-11 family",
+    "Piper"
+  ],
+  "PA-18/19 Super Cub": [
+    "PA18",
+    "PA-18 family",
+    "Piper"
+  ],
+  "Beech F90": [
+    "BE90",
+    "King Air family",
+    "Beechcraft"
+  ],
+  "Beechjet 400": [
+    "BE40",
+    "Beechjet family",
+    "Beechcraft"
+  ],
+  "Premier 1": [
+    "PRM1",
+    "Premier family",
+    "Hawker Beechcraft"
+  ],
+  "Bonanza 33": [
+    "BE33",
+    "Bonanza family",
+    "Beechcraft"
+  ],
+  "Bonanza 35": [
+    "BE35",
+    "Bonanza family",
+    "Beechcraft"
+  ],
+  "Bonanza 36": [
+    "BE36",
+    "Bonanza family",
+    "Beechcraft"
+  ],
+  "Baron 55/Cochise": [
+    "BE55",
+    "Beechcraft Baron family",
+    "Beechcraft"
+  ],
+  "Baron 58/58TC": [
+    "BE58",
+    "Beechcraft Baron family",
+    "Beechcraft"
+  ],
+  "King Air C90 E90": [
+    "BE90",
+    "King Air family",
+    "Beechcraft"
+  ],
+  "Super King Air 200": [
+    "BE20",
+    "King Air family",
+    "Beechcraft"
+  ],
+  "Super King Air 300": [
+    "BE30",
+    "King Air family",
+    "Beechcraft"
+  ],
+  "Super King Air 350": [
+    "B350",
+    "King Air family",
+    "Beechcraft"
+  ],
+  "Duchess 76": [
+    "BE76",
+    "Beechcraft",
+    "Beechcraft"
+  ],
+  "Duke 60": [
+    "BE60",
+    "Beechcraft",
+    "Beechcraft"
+  ],
+  "Musketeer 23": [
+    "BE23",
+    "Beechcraft",
+    "Beechcraft"
+  ],
+  "Queen Air 65/70 (Seminole)": [
+    "BE23",
+    "Beechcraft",
+    "Beechcraft"
+  ],
+  "Sierra 24": [
+    "BE24",
+    "Beechcraft",
+    "Beechcraft"
+  ],
+  "Sundowner 23": [
+    "BE23",
+    "Beechcraft",
+    "Beechcraft"
+  ],
+  "Travelair 95": [
+    "B95",
+    "Beechcraft",
+    "Beechcraft"
+  ],
+  "Twin Beech 18": [
+    "BE23",
+    "Beechcraft",
+    "Beechcraft"
+  ],
+  "Twin Bonanza 50": [
+    "BE23",
+    "Beechcraft",
+    "Beechcraft"
+  ],
+  "Beechcraft / Beech Aircraft Corp Undifferentiated or Other Model": [
+    "UNKN",
+    "Beechcraft",
+    "Beechcraft"
+  ],
+  "Beechcraft King Air Undifferentiated or Other Model": [
+    "UNKN",
+    "Beechcraft",
+    "Beechcraft"
+  ],
+  "Beechcraft Single Piston Undifferentiated or Other Model": [
+    "UNKN",
+    "Beechcraft",
+    "Beechcraft"
+  ],
+  "Beechcraft Twin Piston Undifferentiated or Other Model": [
+    "UNKN",
+    "Beechcraft",
+    "Beechcraft"
+  ],
+  "Beechcraft Twin Turboprop or Jet Undifferentiated or Other Model": [
+    "UNKN",
+    "Beechcraft",
+    "Beechcraft"
+  ],
+  "SR20": [
+    "SR20",
+    "SR20 family",
+    "Cirrus"
+  ],
+  "SR22": [
+    "SR22",
+    "SR22 family",
+    "Cirrus"
+  ],
+  "Cirrus Aircraft Undifferentiated": [
+    "UNKN",
+    "Cirrus",
+    "Cirrus"
+  ],
+  "Cirrus Vision SJ50": [
+    "SF50",
+    "Vision Jet family",
+    "Cirrus"
+  ],
+  "DA20 Undifferentiated": [
+    "DA20",
+    "DA20 family",
+    "Diamond"
+  ],
+  "DA20-A1 Katana": [
+    "DA20",
+    "DA20 family",
+    "Diamond"
+  ],
+  "DA20-C1 Eclipse": [
+    "DA20",
+    "DA20 family",
+    "Diamond"
+  ],
+  "DA40 Diamond Star": [
+    "DA40",
+    "DA40 family",
+    "Diamond"
+  ],
+  "DA42 Twin Star": [
+    "DA42",
+    "DA42 family",
+    "Diamond"
+  ],
+  "Diamond Aircraft Undifferentiated or Other Model": [
+    "UNKN",
+    "Diamond",
+    "Diamond"
+  ],
+  "Diamond Jet; Undifferentiated": [
+    "UNKN",
+    "Diamond",
+    "Diamond"
+  ],
+  "M-20 B/C Ranger": [
+    "M20P",
+    "M20 family",
+    "Mooney"
+  ],
+  "M-20 E Super 21": [
+    "M20P",
+    "M20 family",
+    "Mooney"
+  ],
+  "M-20 F Executive 21": [
+    "M20P",
+    "M20 family",
+    "Mooney"
+  ],
+  "M-20 G Statesman": [
+    "M20P",
+    "M20 family",
+    "Mooney"
+  ],
+  "M-20 J (201) / Allegro": [
+    "M20P",
+    "M20 family",
+    "Mooney"
+  ],
+  "M-20 K (231) / Encore": [
+    "M20P",
+    "M20 family",
+    "Mooney"
+  ],
+  "M-20 M Bravo": [
+    "M20P",
+    "M20 family",
+    "Mooney"
+  ],
+  "M-20 R Ovation": [
+    "M20P",
+    "M20 family",
+    "Mooney"
+  ],
+  "M-20 Series Undifferentiated or Other Model": [
+    "M20P",
+    "M20 family",
+    "Mooney"
+  ],
+  "M-20 T Predator": [
+    "M20P",
+    "M20 family",
+    "Mooney"
+  ],
+  "M-20 TN Acclaim": [
+    "M20P",
+    "M20 family",
+    "Mooney"
+  ],
+  "M-4": [
+    "M20P",
+    "M20 family",
+    "Mooney"
+  ],
+  "M-5": [
+    "M20P",
+    "M20 family",
+    "Mooney"
+  ],
+  "M-7": [
+    "M20P",
+    "M20 family",
+    "Mooney"
+  ],
+  "M-30": [
+    "M20P",
+    "M20 family",
+    "Mooney"
+  ],
+  "Mooney Aircraft Undifferentiated or Other Model": [
+    "UNKN",
+    "M20 family",
+    "Mooney"
+  ],
+  "Gulfstream G100/G150 (IAI 1125 Astra)": [
+    "ASTR",
+    "Gulfstream",
+    "Gulfstream"
+  ],
+  "Gulfstream G200 (IAI 1126 Galaxy)": [
+    "G200",
+    "Gulfstream",
+    "Gulfstream"
+  ],
+  "Gulfstream G280": [
+    "G280",
+    "Gulfstream",
+    "Gulfstream"
+  ],
+  "Gulfstream G650": [
+    "G650",
+    "Gulfstream",
+    "Gulfstream"
+  ],
+  "Gulfstream II (G1159)": [
+    "GLF4",
+    "Gulfstream",
+    "Gulfstream"
+  ],
+  "Gulfstream III (G1159A)": [
+    "GLF3",
+    "Gulfstream",
+    "Gulfstream"
+  ],
+  "Gulfstream IV / G350 / G450": [
+    "GLF4",
+    "Gulfstream",
+    "Gulfstream"
+  ],
+  "Gulfstream Jet Undifferentiated or Other Model": [
+    "UNKN",
+    "Gulfstream",
+    "Gulfstream"
+  ],
+  "Gulfstream V / G500 / G550": [
+    "GLF5",
+    "Gulfstream",
+    "Gulfstream"
+  ],
+  "BAe 125 Series 1000 (Hawker Horizon)": [
+    "H25B",
+    "Hawker family",
+    "Hawker Beechcraft"
+  ],
+  "BAe 125 Series 800": [
+    "H25B",
+    "Hawker family",
+    "Hawker Beechcraft"
+  ],
+  "HS 125 Series": [
+    "H25B",
+    "Hawker family",
+    "Hawker Beechcraft"
+  ],
+  "HS 125 Series 700": [
+    "H25B",
+    "Hawker family",
+    "Hawker Beechcraft"
+  ],
+  "Hawker 4000": [
+    "HA4T",
+    "Hawker family",
+    "Hawker Beechcraft"
+  ],
+  "Hawker 900": [
+    "H25B",
+    "Hawker family",
+    "Hawker Beechcraft"
+  ],
+  "British Aerospace Undifferentiated or Other Model": [
+    "UNKN",
+    "BAe",
+    "British Aerospace"
+  ],
+  "TBM 900 / TBM 930": [
+    "TBM9",
+    "TBM family",
+    "Socata"
+  ],
+  "TBM 700/TBM 850": [
+    "TBM8",
+    "TBM family",
+    "Socata"
+  ],
+  "Socata (Aerospatiale); Undifferentiated or Other Model": [
+    "UNKN",
+    "SOCATA",
+    "Socata"
+  ],
+  "Trinidad TB-20": [
+    "TB20",
+    "TB family",
+    "Socata"
+  ],
+  "Robinson R22": [
+    "R22",
+    "Robinson",
+    "Robinson"
+  ],
+  "Robinson R44": [
+    "R44",
+    "Robinson",
+    "Robinson"
+  ],
+  "Robinson R66": [
+    "R66",
+    "Robinson",
+    "Robinson"
+  ],
+  "Robinson Helicopter; Undifferentiated or Other Model": [
+    "UNKN",
+    "Robinson",
+    "Robinson"
+  ],
+  "Bell 47": [
+    "B47",
+    "Bell 47 family",
+    "Bell"
+  ],
+  "Bell Helicopter 407": [
+    "B407",
+    "Bell",
+    "Bell"
+  ],
+  "Bell Helicopter Textron Undifferentiated or Other Model": [
+    "UNKN",
+    "Bell",
+    "Bell"
+  ],
+  "Bellanca Aircraft Corp Undifferentiated or Other Model": [
+    "UNKN",
+    "Bellanca",
+    "Bellanca"
+  ],
+  "Jet/Long Ranger/206": [
+    "B206",
+    "Bell 206 family",
+    "Bell"
+  ],
+  "Jet Ranger All Series Undifferentiated or Other Model": [
+    "B206",
+    "Bell 206 family",
+    "Bell"
+  ],
+  "Jet Ranger III": [
+    "B206",
+    "Bell 206 family",
+    "Bell"
+  ],
+  "Iroquois 212/214": [
+    "B212",
+    "Bell 212 family",
+    "Bell"
+  ],
+  "EC130": [
+    "EC130",
+    "Airbus Helicopters",
+    "Airbus Helicopters"
+  ],
+  "EC135": [
+    "EC135",
+    "Airbus Helicopters",
+    "Airbus Helicopters"
+  ],
+  "EC145": [
+    "EC145",
+    "Airbus Helicopters",
+    "Airbus Helicopters"
+  ],
+  "Eurocopter AS 350/355/EC130 - Astar/Twinstar/Ecureuil": [
+    "AS50",
+    "AS350 family",
+    "Airbus Helicopters"
+  ],
+  "MBB-BK 117 All Series": [
+    "BK11",
+    "BK 117 family",
+    "Airbus Helicopters"
+  ],
+  "S-58/S-58T Choctaw/Seahorse": [
+    "S58",
+    "S-58 family",
+    "Sikorsky"
+  ],
+  "S-70/UH-60 Blackhawk/Seahawk/Pavehawk/Knighthawk": [
+    "S70",
+    "S-70 family",
+    "Sikorsky"
+  ],
+  "S-76/S-76 Mark II": [
+    "S76",
+    "S-76 family",
+    "Sikorsky"
+  ],
+  "Sikorsky Helicopter Undifferentiated or Other Model": [
+    "UNKN",
+    "Sikorsky",
+    "Sikorsky"
+  ],
+  "SA-227 AC Metro III": [
+    "SW4",
+    "Metro family",
+    "Fairchild"
+  ],
+  "Merlin III": [
+    "SW4",
+    "Merlin family",
+    "Fairchild"
+  ],
+  "Metro Undifferentiated or Other Model": [
+    "UNKN",
+    "Metro",
+    "Fairchild"
+  ],
+  "Fairchild Swearingen Undifferentiated or Other Model": [
+    "UNKN",
+    "Fairchild",
+    "Fairchild"
+  ],
+  "Shorts SD-360": [
+    "SH36",
+    "Shorts 360 family",
+    "Shorts"
+  ],
+  "P180 Avanti": [
+    "P180",
+    "P180 Avanti family",
+    "Piaggio"
+  ],
+  "Do 328 TJ (Turbojet)": [
+    "DO32",
+    "Do 328 family",
+    "Dornier"
+  ],
+  "Eclipse 500": [
+    "EA50",
+    "Eclipse 500 family",
+    "Eclipse"
+  ],
+  "Epic LT": [
+    "EPIC",
+    "Epic LT family",
+    "Epic"
+  ],
+  "Honda Jet": [
+    "HA420",
+    "HondaJet family",
+    "Honda"
+  ],
+  "Sabreliner 60": [
+    "SBR1",
+    "Sabreliner family",
+    "Rockwell"
+  ],
+  "MU-2": [
+    "MU2",
+    "MU-2 family",
+    "Mitsubishi"
+  ],
+  "MU-2 Undifferentiated or Other Model": [
+    "MU2",
+    "MU-2 family",
+    "Mitsubishi"
+  ],
+  "MU-2G/K": [
+    "MU2",
+    "MU-2 family",
+    "Mitsubishi"
+  ],
+  "Mallard G-73": [
+    "G73",
+    "Mallard family",
+    "Grumman"
+  ],
+  "Airvan 8 (GA8)": [
+    "GA8",
+    "GA8 family",
+    "Gippsland"
+  ],
+  "Kodiak 100": [
+    "KODI",
+    "Kodiak 100 family",
+    "Quest"
+  ],
+  "LA-4 A/B Buccaneer": [
+    "LAKE",
+    "Lake LA-4 family",
+    "Lake"
+  ],
+  "LA-4-200 Buccaneer": [
+    "LAKE",
+    "Lake LA-4 family",
+    "Lake"
+  ],
+  "LA-250 (Renegade/Seawolf)": [
+    "LA25",
+    "Lake LA-250 family",
+    "Lake"
+  ],
+  "Lake Aircraft Undifferentiated or Other Model": [
+    "UNKN",
+    "Lake",
+    "Lake"
+  ],
+  "Teal Golden Eagle": [
+    "TEAL",
+    "Teal family",
+    "Teal"
+  ],
+  "Viking": [
+    "VIK1",
+    "Viking family",
+    "Viking"
+  ],
+  "Viking/Turbo-Viking 17-30/31": [
+    "VIK1",
+    "Viking family",
+    "Viking"
+  ],
+  "Aircoupe A2": [
+    "ERCO",
+    "Ercoupe family",
+    "ERCO"
+  ],
+  "Aeronca Champion": [
+    "CHAM",
+    "Champion family",
+    "Aeronca"
+  ],
+  "Champion Citabria 7ECA": [
+    "7ECA",
+    "Citabria family",
+    "American Champion"
+  ],
+  "Champion Citabria Undifferentiated": [
+    "7ECA",
+    "Citabria family",
+    "American Champion"
+  ],
+  "Decathlon 8KCAB": [
+    "8KCAB",
+    "Decathlon family",
+    "American Champion"
+  ],
+  "Scout 8GCBC": [
+    "8GCB",
+    "Scout family",
+    "American Champion"
+  ],
+  "Stearman": [
+    "STEA",
+    "Stearman family",
+    "Boeing"
+  ],
+  "Luscombe (Silvaire) Undifferentiated or Other Model": [
+    "LUSC",
+    "Luscombe family",
+    "Luscombe"
+  ],
+  "Luscombe Model 8/Luscombe 50": [
+    "LUSC",
+    "Luscombe family",
+    "Luscombe"
+  ],
+  "Cheetah; Tiger; Traveler AA5 Series": [
+    "AA5",
+    "AA-5 family",
+    "Grumman American"
+  ],
+  "Yankee AA1": [
+    "AA1",
+    "AA-1 family",
+    "Grumman American"
+  ],
+  "Grumman American Undifferentiated or Other Model": [
+    "UNKN",
+    "Grumman",
+    "Grumman American"
+  ],
+  "Grumman Corp Undifferentiated or Other Model": [
+    "UNKN",
+    "Grumman",
+    "Grumman American"
+  ],
+  "Navion": [
+    "NAV",
+    "Navion family",
+    "Navion"
+  ],
+  "Navion Aircraft Corp Undifferentiated or Other Model": [
+    "NAV",
+    "Navion family",
+    "Navion"
+  ],
+  "Rangemaster (Navion)": [
+    "NAV",
+    "Navion family",
+    "Navion"
+  ],
+  "Aero Commander 500 Series": [
+    "AC50",
+    "Aero Commander 500 family",
+    "Rockwell"
+  ],
+  "Commander Prop Jet Undifferentiated or Other Model": [
+    "UNKN",
+    "Aero Commander",
+    "Rockwell"
+  ],
+  "Rockwell Aero Commander Single-Engine Undifferentiated or Other Model": [
+    "UNKN",
+    "Aero Commander",
+    "Rockwell"
+  ],
+  "Extra 200/300 Series": [
+    "EXTRA",
+    "Extra family",
+    "Extra"
+  ],
+  "Extra Aircraft Undifferentiated or Other Model": [
+    "EXTRA",
+    "Extra family",
+    "Extra"
+  ],
+  "Christen Eagle II": [
+    "EAGL",
+    "Eagle family",
+    "Christen"
+  ],
+  "CH701": [
+    "CH70",
+    "CH-701 family",
+    "Zenith"
+  ],
+  "CH750 / Cruzer": [
+    "CH75",
+    "CH-750 family",
+    "Zenith"
+  ],
+  "Zenith Undifferentiated or Other Model": [
+    "UNKN",
+    "Zenith",
+    "Zenith"
+  ],
+  "Vans Aircraft Undifferentiated or Other Model": [
+    "UNKN",
+    "Vans",
+    "Vans"
+  ],
+  "RV-10": [
+    "RV10",
+    "RV-10 family",
+    "Vans"
+  ],
+  "RV-12": [
+    "RV12",
+    "RV-12 family",
+    "Vans"
+  ],
+  "RV-3": [
+    "RV3",
+    "RV-3 family",
+    "Vans"
+  ],
+  "RV-4": [
+    "RV4",
+    "RV-4 family",
+    "Vans"
+  ],
+  "RV-6": [
+    "RV6",
+    "RV-6 family",
+    "Vans"
+  ],
+  "RV-7": [
+    "RV7",
+    "RV-7 family",
+    "Vans"
+  ],
+  "RV-8": [
+    "RV8",
+    "RV-8 family",
+    "Vans"
+  ],
+  "RV-9": [
+    "RV9",
+    "RV-9 family",
+    "Vans"
+  ],
+  "Pitts S-1 All Series": [
+    "PIT1",
+    "Pitts",
+    "Pitts"
+  ],
+  "Pitts S-2 All Series": [
+    "PIT2",
+    "Pitts",
+    "Pitts"
+  ],
+  "Lancair Columbia": [
+    "COL3",
+    "Lancair",
+    "Lancair"
+  ],
+  "Lancair ES": [
+    "ES",
+    "Lancair",
+    "Lancair"
+  ],
+  "Lancair Evolution": [
+    "EVO",
+    "Lancair",
+    "Lancair"
+  ],
+  "Lancair IV/IVP": [
+    "LIV",
+    "Lancair",
+    "Lancair"
+  ],
+  "Lancair Undifferentiated": [
+    "UNKN",
+    "Lancair",
+    "Lancair"
+  ],
+  "G2 Heritage (Glasair II) / G3 Heritage (Glasair III)": [
+    "GLAS",
+    "Glasair family",
+    "Glasair"
+  ],
+  "Tecnam P2006 Twin": [
+    "P2006",
+    "Tecnam",
+    "Tecnam"
+  ],
+  "Tecnam P2008": [
+    "P2008",
+    "Tecnam",
+    "Tecnam"
+  ],
+  "Tecnam P2012 Traveller": [
+    "P2012",
+    "Tecnam",
+    "Tecnam"
+  ],
+  "GA7-Cougar": [
+    "GA7",
+    "GA-7 family",
+    "Gulfstream American"
+  ],
+  "Golden Eagle 421": [
+    "C421",
+    "Cessna 421 family",
+    "Cessna"
+  ],
+  "Chancellor 414A / C414": [
+    "C414",
+    "Cessna 414 family",
+    "Cessna"
+  ],
+  "Skylark 175": [
+    "SK175",
+    "Skylark family",
+    "Bellanca"
+  ],
+  "Skynight 320": [
+    "SK320",
+    "Skynight family",
+    "Bellanca"
+  ],
+  "Sport 19": [
+    "SP19",
+    "Sport family",
+    "Bellanca"
+  ],
+  "Cruisemaster 14-13": [
+    "B14A",
+    "Bellanca 14 family",
+    "Bellanca"
+  ],
+  "Albatros (L39)": [
+    "L39",
+    "L-39 family",
+    "Aero Vodochody"
+  ],
+  "A109 All Series": [
+    "A109",
+    "A109 family",
+    "AgustaWestland"
+  ],
+  "A139 All Series": [
+    "A139",
+    "A139 family",
+    "AgustaWestland"
+  ],
+  "MD-500MG": [
+    "H500",
+    "H500 family",
+    "MD Helicopters"
+  ],
+  "A-1 Husky": [
+    "HUSK",
+    "Husky family",
+    "Aviat"
+  ],
+  "AG-CAT Turbo": [
+    "AGCAT",
+    "Ag-Cat family",
+    "Schweizer"
+  ],
+  "Costruzioni Aeronautiche Tecnam Undifferentiated or Other Model": [
+    "UNKN",
+    "Tecnam",
+    "Tecnam"
+  ],
+  "De Havilland Canada Undifferentiated or Other Model": [
+    "UNKN",
+    "De Havilland Canada",
+    "De Havilland"
+  ],
+  "Maule Aircraft Corp Undifferentiated or Other Model": [
+    "UNKN",
+    "Maule",
+    "Maule"
+  ],
+  "Aircraft Manufacturing and Design (AMD) Undifferentiated or Other Model": [
+    "UNKN",
+    "AMD",
+    "AMD"
+  ],
+  "Liberty Manufacturer Undifferentiated": [
+    "UNKN",
+    "Liberty",
+    "Liberty"
+  ],
+  "McDonnell Douglas Helicopter Undifferentiated or Other Model": [
+    "UNKN",
+    "McDonnell Douglas Helicopter",
+    "McDonnell Douglas"
+  ],
+  "EMB ERJ 170/175 ER/LR": [
+    "E170",
+    "E-Jet family",
+    "Embraer"
+  ],
+  "EMB ERJ 190/195 ER/LR": [
+    "E190",
+    "E-Jet family",
+    "Embraer"
+  ],
+  "Regional Jet 900 (CRJ900)": [
+    "CRJ9",
+    "CRJ family",
+    "Bombardier"
+  ],
+  "Airbus Industrie Undifferentiated or Other Model": [
+    "UNKN",
+    "Airbus",
+    "Airbus"
+  ],
+  "Beech 1900": [
+    "B190",
+    "Beech 1900 family",
+    "Beechcraft"
+  ],
+  "Cessna 210 Centurion / Turbo Centurion 210C; 210D": [
+    "C210",
+    "Cessna 210 family",
+    "Cessna"
+  ],
+  "Cessna 180 Skywagon": [
+    "C180",
+    "Cessna 180 family",
+    "Cessna"
+  ],
+  "Cessna 162 Skycatcher": [
+    "C162",
+    "Cessna 162 family",
+    "Cessna"
+  ],
+  "Cessna Citation Sovereign (C680)": [
+    "C680",
+    "Citation family",
+    "Cessna"
+  ],
+  "Cessna Citation Mustang (C510)": [
+    "C510",
+    "Citation family",
+    "Cessna"
+  ],
+  "Cessna Stationair/Turbo Stationair 7/8": [
+    "C207",
+    "Cessna 207 family",
+    "Cessna"
+  ],
+  "Citation I (C500)": [
+    "C500",
+    "Citation family",
+    "Cessna"
+  ],
+  "Embraer Undifferentiated or Other Model": [
+    "UNKN",
+    "Embraer",
+    "Embraer"
+  ],
+  "Tobago TB-10": [
+    "TB10",
+    "TB family",
+    "Socata"
+  ],
+  "Tobago TB-200": [
+    "TB20",
+    "TB family",
+    "Socata"
+  ]
+}

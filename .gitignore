@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Test cache
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environment
+venv/
+
+# Generated pipeline output
+points.jsonl
+points.jsonl.*
+
+# Generated sample CSVs (source data CSV is tracked)
+*.csv
+!nasa_asrs_2020_2022.csv
+
+# Stage artifacts (superseded by pipeline/ module)
+stage*.md
+stage*.py
