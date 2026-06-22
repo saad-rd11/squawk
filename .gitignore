@@ -14,9 +14,8 @@ venv/
 points.jsonl
 points.jsonl.*
 
-# Generated sample CSVs (source data CSV is tracked)
+# Generated CSVs and source data (too large to track)
 *.csv
-!nasa_asrs_2020_2022.csv
 
 # Stage artifacts (superseded by pipeline/ module)
 stage*.md
