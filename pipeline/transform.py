@@ -235,6 +235,7 @@ def transform_row(
             "chunk_index": c_idx,
             "chunk_total": len(chunks),
             "context_prefix": prefix,
+            "chunk": chunk,  # raw chunk — composed with prefix at embed time
         }
         child_payload = validate_payload_child(child_payload_data)
 

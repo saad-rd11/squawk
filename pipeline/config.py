@@ -13,8 +13,12 @@ class PipelineConfig:
     chunk_max_chars: int = 2048
     prefix_fields: tuple[str, ...] = ("aircraft", "phase", "anomaly", "component")
 
-    dense_model: str = "__EMBEDDING_PLACEHOLDER__"
-    sparse_model: str = "__SPARSE_PLACEHOLDER__"
+    dense_model: str = "BAAI/bge-base-en-v1.5"
+    sparse_model: str = "Qdrant/bm25"
+    record_dense_model: Optional[str] = (
+        None  # deferred — wire when parent-similarity search exists
+    )
+    embed_batch_size: int = 256
 
 
 DEFAULT_CONFIG = PipelineConfig()

@@ -54,6 +54,7 @@ class ChildPointPayload(BaseModel):
     chunk_index: int
     chunk_total: int
     context_prefix: str
+    chunk: str  # raw narrative chunk (no prefix) — compose with context_prefix at embed time
 
     @field_validator("narrative_source")
     @classmethod
