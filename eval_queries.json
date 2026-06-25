@@ -1,179 +1,286 @@
 [
   {
-    "query": "I'm looking for reports where pilots inputted the wrong waypoint into the FMS because the assigned fix had a nearly identical phonetic name or spelling to another fix.",
+    "query": "Crew reacting to a TCAS RA while configuring to land or on short finals.",
+    "expected_acns": [
+      1729427,
+      1733678
+    ],
+    "type": "exact_token",
+    "anchor_tokens": [
+      "TCAS RA"
+    ]
+  },
+  {
+    "query": "Ground proximity GPWS warnings triggered when losing altitude or navigating above topographical peaks.",
+    "expected_acns": [
+      1716462,
+      1792528
+    ],
+    "type": "exact_token",
+    "anchor_tokens": [
+      "GPWS"
+    ]
+  },
+  {
+    "query": "Sourcing certified mechanics to swap out fractured first-stage rotor components on a CFM56-7B.",
+    "expected_acns": [
+      1852135
+    ],
+    "type": "exact_token",
+    "anchor_tokens": [
+      "CFM56-7B"
+    ]
+  },
+  {
+    "query": "Disposing of PW4000 hardware because the securing fasteners had sheared off.",
+    "expected_acns": [
+      1826087
+    ],
+    "type": "exact_token",
+    "anchor_tokens": [
+      "PW4000"
+    ]
+  },
+  {
+    "query": "Unmanned operators assuming they possessed LAANC clearance when the digital permission was actually lapsed, unfiled, or geographically incorrect.",
+    "expected_acns": [
+      1941461,
+      1958821
+    ],
+    "type": "exact_token",
+    "anchor_tokens": [
+      "LAANC"
+    ]
+  },
+  {
+    "query": "Cruising at FL340 when the aviators detect a catastrophic powerplant failure accompanied by a concussive sound.",
+    "expected_acns": [
+      1715422
+    ],
+    "type": "exact_token",
+    "anchor_tokens": [
+      "FL340"
+    ]
+  },
+  {
+    "query": "Flying an ILS approach and intercepting the localizer but suffering from guidance tracking dropouts or sudden lateral automated swings.",
+    "expected_acns": [
+      1768208
+    ],
+    "type": "exact_token",
+    "anchor_tokens": [
+      "ILS"
+    ]
+  },
+  {
+    "query": "When lateral automation like LNAV incorrectly locks onto ghost signals and triggers aggressive, uncommanded bank angles to correct.",
+    "expected_acns": [
+      1756167,
+      1770840
+    ],
+    "type": "exact_token",
+    "anchor_tokens": [
+      "LNAV"
+    ]
+  },
+  {
+    "query": "A Cessna encountering a total generator or breaker trip at night, stripping the aviator of external comms and interior illumination.",
+    "expected_acns": [
+      1716553
+    ],
+    "type": "exact_token",
+    "anchor_tokens": [
+      "Cessna"
+    ]
+  },
+  {
+    "query": "Certified Part 107 pilots accidentally crossing into restricted boundaries because they relied on outdated third-party geospatial apps.",
+    "expected_acns": [
+      1854268
+    ],
+    "type": "exact_token",
+    "anchor_tokens": [
+      "Part 107"
+    ]
+  },
+  {
+    "query": "Dispatching a ship with an MEL, but the technicians improperly secured the bypasses or left panels compromised, causing inflight consequences.",
+    "expected_acns": [
+      1714952
+    ],
+    "type": "exact_token",
+    "anchor_tokens": [
+      "MEL"
+    ]
+  },
+  {
+    "query": "ATC instructing a drop to FL180, but the flight crew had to arrest the descent early to dodge an unannounced target climbing into their block.",
+    "expected_acns": [
+      1792528
+    ],
+    "type": "exact_token",
+    "anchor_tokens": [
+      "FL180"
+    ]
+  },
+  {
+    "query": "Aviators fat-fingering the destination or intermediate intersection into the flight management computer due to phonetically identical geographical naming conventions.",
     "expected_acns": [
       1895732,
       1942301,
       1852371
-    ]
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
   },
   {
-    "query": "Need to find cases where ramp agents or ground personnel pushed back on a supervisor's orders to clean up a dangerous goods/hazmat spill, specifically because they didn't have the right PPE or training.",
+    "query": "An airport worker declining to obey management instructions to wipe up an unidentified liquid leaking from a priority package, citing union rules and lack of protective gear.",
     "expected_acns": [
       1874854
-    ]
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
   },
   {
-    "query": "Show me incidents where passengers brought large lithium-ion batteries or spare power banks in their checked luggage or gate-checked bags without telling anyone, violating dangerous goods policies.",
+    "query": "The flight deck registering an inability to maintain cabin altitude during climb because technicians failed to properly seal an external access point after dealing with a deferred defect.",
+    "expected_acns": [
+      1714952
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
+  },
+  {
+    "query": "Rubber shredding from the undercarriage during the deceleration phase, forcing the pilot to pull onto unpaved areas or resulting in underside structural damage.",
+    "expected_acns": [
+      1715592,
+      1716263
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
+  },
+  {
+    "query": "Pilots initiating block-out after testing a powerplant fluid issue on the ramp, but forgetting to obtain the finalized digital sign-off from the technical team.",
+    "expected_acns": [
+      1780942
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
+  },
+  {
+    "query": "A complete loss of the ship's generated power after dark, leaving the aviator with only a flashlight for panel illumination and requiring them to use a mobile network to communicate with the aerodrome.",
+    "expected_acns": [
+      1714843
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
+  },
+  {
+    "query": "Sanitation protocols involving harsh chemicals causing data input peripherals at a radar control center to malfunction or stick, delaying handoffs.",
+    "expected_acns": [
+      1800020
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
+  },
+  {
+    "query": "A teacher resorting to hitting the learner in the cockpit to regain authority over the control column just as the aircraft was trying to unstick from the tarmac.",
+    "expected_acns": [
+      1809415
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
+  },
+  {
+    "query": "The pilot monitoring failing to catch that the flight guidance computer bypassed a vertical waypoint constraint because they were utilizing a different thrust/pitch logic to slow down.",
+    "expected_acns": [
+      1779610,
+      1805069
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
+  },
+  {
+    "query": "Customers inadvertently or intentionally stowing high-capacity energy storage cells in the cargo hold, bypassing the standard gate screening for restricted electronic items.",
     "expected_acns": [
       1795879,
       1942028,
       1884838,
       1747654
-    ]
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
   },
   {
-    "query": "Find reports where maintenance mechanics forgot to close the ground valve all the way, causing the plane to fail to pressurize as it climbed out.",
-    "expected_acns": [
-      1714952
-    ]
-  },
-  {
-    "query": "Looking for landing gear tire blowouts or failures that happened during the landing rollout and caused the plane to veer into the grass or damage the wing.",
-    "expected_acns": [
-      1715592,
-      1716263
-    ]
-  },
-  {
-    "query": "I need UAS incident reports where a drone pilot flew inside an active Temporary Flight Restriction (TFR) established for a wildfire or emergency because they didn't get an SGI waiver or misunderstood their app.",
-    "expected_acns": [
-      1745873,
-      1835729,
-      1866178
-    ]
-  },
-  {
-    "query": "Pull up airline crew reports of near mid-air collisions (NMAC) with drones specifically while the aircraft was established on an ILS glidepath or final approach.",
-    "expected_acns": [
-      1800957,
-      1811687,
-      1866425
-    ]
-  },
-  {
-    "query": "Are there any reports where a flight attendant missed the 'prepare for takeoff' call and wasn't in their jumpseat because they were arguing with a passenger about wearing a COVID mask?",
-    "expected_acns": [
-      1750962
-    ]
-  },
-  {
-    "query": "Look for situations where a crew did an engine run at the gate to troubleshoot an active fuel leak, and then accidentally pushed back and departed before getting the official maintenance release paperwork.",
-    "expected_acns": [
-      1780942
-    ]
-  },
-  {
-    "query": "Find helicopter incident reports where the pilot had to aggressively maneuver or perform an auto-rotation because ATC cleared another plane onto their runway while they were hovering or practicing.",
-    "expected_acns": [
-      1773796,
-      1902437,
-      1935748
-    ]
-  },
-  {
-    "query": "Show me the report where a pilot had a total electrical failure at night and had to use a handheld light and their personal cell phone to call the tower after landing.",
-    "expected_acns": [
-      1714843
-    ]
-  },
-  {
-    "query": "I'm trying to track down ramp congestion issues where multiple aircraft were pushed back by tugs into the same alleyway at the exact same time, blocking each other or almost hitting tails.",
+    "query": "Ground vehicles reversing multiple airliners into a confined tarmac space simultaneously, resulting in gridlock and dangerous proximity between tail sections.",
     "expected_acns": [
       1772747,
       1894027
-    ]
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
   },
   {
-    "query": "Need ATC reports complaining about military fighter jets or tactical flights that spilled out of their ATCAA or MOA airspace without a radar handoff, descending right into civilian traffic.",
+    "query": "Department of Defense assets exiting their designated training polygons unannounced and encroaching on civil airways without prior coordination.",
     "expected_acns": [
       1869827,
       1783749
-    ]
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
   },
   {
-    "query": "Pull incidents where a preceding aircraft's wake turbulence caused an uncommanded roll or triggered the stick shaker on the trailing aircraft right at takeoff rotation or on short final.",
-    "expected_acns": [
-      1715335,
-      1850019
-    ]
-  },
-  {
-    "query": "Find cases where a bird strike occurred right at liftoff or rotation, causing engine vibrations and prompting the crew to leave the landing gear down and return to the airport immediately.",
+    "query": "Avian ingestion at the exact moment of becoming airborne, leading the cockpit crew to keep the undercarriage extended while dealing with powerplant shaking.",
     "expected_acns": [
       1734319,
       1731626
-    ]
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
   },
   {
-    "query": "Show me reports of GPWS 'Pull Up' or terrain alerts going off because ATC gave a low vector over mountainous terrain or the crew was descending too fast during a night visual approach.",
-    "expected_acns": [
-      1716462,
-      1792528
-    ]
-  },
-  {
-    "query": "Looking for hot air balloon incidents where sudden wind shear or a wind shift on short final caused the balloon envelope to hit a tree, a crane, or a house roof.",
+    "query": "Lighter-than-air craft encountering sudden meteorological shifts near the surface, causing the canopy to drape over residential structures or heavy machinery.",
     "expected_acns": [
       1927892,
       1898572,
       1951174
-    ]
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
   },
   {
-    "query": "Find runway incursion or taxi deviation reports that specifically blame faded paint, poor signage, or confusing taxiway concrete markings making it hard to see where to turn or hold short.",
+    "query": "Aviators ending up on incorrect or closed pavement surfaces because the asphalt lines were barely visible or the navigational placards were inadequate.",
     "expected_acns": [
       1806940,
       1948886,
       1906922
-    ]
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
   },
   {
-    "query": "I need safety reports about ground support vehicles, like motorized baggage carts or tugs, blowing through stop signs or zipper roads and forcing a taxiing aircraft to slam on the brakes.",
+    "query": "Non-aircraft tarmac traffic ignoring right-of-way rules at intersections, compelling the flight deck to perform harsh stops to prevent a ground collision.",
     "expected_acns": [
       1795404,
       1952659,
       1961972
-    ]
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
   },
   {
-    "query": "Pull the report where the First Officer fainted, looked pale, or became medically incapacitated in the flight deck or forward galley while the plane was at cruise altitude.",
+    "query": "The second-in-command losing consciousness and collapsing in the front preparation area, forcing the captain to handle the remainder of the high-altitude transit solo.",
     "expected_acns": [
       1716103
-    ]
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
   },
   {
-    "query": "Looking for drone pilots who violated airspace because they relied on a third-party app like Airmap or Aloft and either forgot to submit the LAANC request or didn't realize they were inside Class C/D boundaries.",
-    "expected_acns": [
-      1891680,
-      1921731,
-      1941461,
-      1941110
-    ]
-  },
-  {
-    "query": "Are there any ATC facility reports of computer keyboards or radar equipment breaking because they were sprayed with too much liquid during mandatory COVID-19 deep cleanings?",
-    "expected_acns": [
-      1800020
-    ]
-  },
-  {
-    "query": "Find the crazy report where a flight instructor literally had to use physical force and strike their student to get them to let go of the yoke during a botched takeoff.",
-    "expected_acns": [
-      1809415
-    ]
-  },
-  {
-    "query": "Show me flight crew reports where using FLCH or VNAV modes to comply with an ATC speed restriction caused them to climb or descend right through a coded crossing altitude on a SID or STAR.",
-    "expected_acns": [
-      1779610,
-      1805069
-    ]
-  },
-  {
-    "query": "Need cabin crew reports involving biohazards, specifically passengers throwing up in the lavatory because they drank too much alcohol before boarding.",
+    "query": "A traveler suffering from acute gastrointestinal sickness mid-flight, prompting the cabin staff to clear the aft area, originally feared to be a highly contagious virus but later attributed to over-imbibing.",
     "expected_acns": [
       1766047
-    ]
+    ],
+    "type": "conceptual",
+    "anchor_tokens": []
   }
 ]
