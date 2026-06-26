@@ -10,7 +10,7 @@ class PipelineConfig:
     icao_designators_path: str = "pipeline/data/icao_designators.json"
     output_path: str = "points.jsonl"
 
-    chunk_max_chars: int = 2048
+    chunk_max_chars: int = 1024
     prefix_fields: tuple[str, ...] = ("aircraft", "phase", "anomaly", "component")
 
     dense_model: str = "BAAI/bge-base-en-v1.5"

@@ -1,286 +1,75 @@
 [
-  {
-    "query": "Crew reacting to a TCAS RA while configuring to land or on short finals.",
-    "expected_acns": [
-      1729427,
-      1733678
-    ],
-    "type": "exact_token",
-    "anchor_tokens": [
-      "TCAS RA"
-    ]
-  },
-  {
-    "query": "Ground proximity GPWS warnings triggered when losing altitude or navigating above topographical peaks.",
-    "expected_acns": [
-      1716462,
-      1792528
-    ],
-    "type": "exact_token",
-    "anchor_tokens": [
-      "GPWS"
-    ]
-  },
-  {
-    "query": "Sourcing certified mechanics to swap out fractured first-stage rotor components on a CFM56-7B.",
-    "expected_acns": [
-      1852135
-    ],
-    "type": "exact_token",
-    "anchor_tokens": [
-      "CFM56-7B"
-    ]
-  },
-  {
-    "query": "Disposing of PW4000 hardware because the securing fasteners had sheared off.",
-    "expected_acns": [
-      1826087
-    ],
-    "type": "exact_token",
-    "anchor_tokens": [
-      "PW4000"
-    ]
-  },
-  {
-    "query": "Unmanned operators assuming they possessed LAANC clearance when the digital permission was actually lapsed, unfiled, or geographically incorrect.",
-    "expected_acns": [
-      1941461,
-      1958821
-    ],
-    "type": "exact_token",
-    "anchor_tokens": [
-      "LAANC"
-    ]
-  },
-  {
-    "query": "Cruising at FL340 when the aviators detect a catastrophic powerplant failure accompanied by a concussive sound.",
-    "expected_acns": [
-      1715422
-    ],
-    "type": "exact_token",
-    "anchor_tokens": [
-      "FL340"
-    ]
-  },
-  {
-    "query": "Flying an ILS approach and intercepting the localizer but suffering from guidance tracking dropouts or sudden lateral automated swings.",
-    "expected_acns": [
-      1768208
-    ],
-    "type": "exact_token",
-    "anchor_tokens": [
-      "ILS"
-    ]
-  },
-  {
-    "query": "When lateral automation like LNAV incorrectly locks onto ghost signals and triggers aggressive, uncommanded bank angles to correct.",
-    "expected_acns": [
-      1756167,
-      1770840
-    ],
-    "type": "exact_token",
-    "anchor_tokens": [
-      "LNAV"
-    ]
-  },
-  {
-    "query": "A Cessna encountering a total generator or breaker trip at night, stripping the aviator of external comms and interior illumination.",
-    "expected_acns": [
-      1716553
-    ],
-    "type": "exact_token",
-    "anchor_tokens": [
-      "Cessna"
-    ]
-  },
-  {
-    "query": "Certified Part 107 pilots accidentally crossing into restricted boundaries because they relied on outdated third-party geospatial apps.",
-    "expected_acns": [
-      1854268
-    ],
-    "type": "exact_token",
-    "anchor_tokens": [
-      "Part 107"
-    ]
-  },
-  {
-    "query": "Dispatching a ship with an MEL, but the technicians improperly secured the bypasses or left panels compromised, causing inflight consequences.",
-    "expected_acns": [
-      1714952
-    ],
-    "type": "exact_token",
-    "anchor_tokens": [
-      "MEL"
-    ]
-  },
-  {
-    "query": "ATC instructing a drop to FL180, but the flight crew had to arrest the descent early to dodge an unannounced target climbing into their block.",
-    "expected_acns": [
-      1792528
-    ],
-    "type": "exact_token",
-    "anchor_tokens": [
-      "FL180"
-    ]
-  },
-  {
-    "query": "Aviators fat-fingering the destination or intermediate intersection into the flight management computer due to phonetically identical geographical naming conventions.",
-    "expected_acns": [
-      1895732,
-      1942301,
-      1852371
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "An airport worker declining to obey management instructions to wipe up an unidentified liquid leaking from a priority package, citing union rules and lack of protective gear.",
-    "expected_acns": [
-      1874854
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "The flight deck registering an inability to maintain cabin altitude during climb because technicians failed to properly seal an external access point after dealing with a deferred defect.",
-    "expected_acns": [
-      1714952
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "Rubber shredding from the undercarriage during the deceleration phase, forcing the pilot to pull onto unpaved areas or resulting in underside structural damage.",
-    "expected_acns": [
-      1715592,
-      1716263
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "Pilots initiating block-out after testing a powerplant fluid issue on the ramp, but forgetting to obtain the finalized digital sign-off from the technical team.",
-    "expected_acns": [
-      1780942
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "A complete loss of the ship's generated power after dark, leaving the aviator with only a flashlight for panel illumination and requiring them to use a mobile network to communicate with the aerodrome.",
-    "expected_acns": [
-      1714843
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "Sanitation protocols involving harsh chemicals causing data input peripherals at a radar control center to malfunction or stick, delaying handoffs.",
-    "expected_acns": [
-      1800020
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "A teacher resorting to hitting the learner in the cockpit to regain authority over the control column just as the aircraft was trying to unstick from the tarmac.",
-    "expected_acns": [
-      1809415
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "The pilot monitoring failing to catch that the flight guidance computer bypassed a vertical waypoint constraint because they were utilizing a different thrust/pitch logic to slow down.",
-    "expected_acns": [
-      1779610,
-      1805069
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "Customers inadvertently or intentionally stowing high-capacity energy storage cells in the cargo hold, bypassing the standard gate screening for restricted electronic items.",
-    "expected_acns": [
-      1795879,
-      1942028,
-      1884838,
-      1747654
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "Ground vehicles reversing multiple airliners into a confined tarmac space simultaneously, resulting in gridlock and dangerous proximity between tail sections.",
-    "expected_acns": [
-      1772747,
-      1894027
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "Department of Defense assets exiting their designated training polygons unannounced and encroaching on civil airways without prior coordination.",
-    "expected_acns": [
-      1869827,
-      1783749
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "Avian ingestion at the exact moment of becoming airborne, leading the cockpit crew to keep the undercarriage extended while dealing with powerplant shaking.",
-    "expected_acns": [
-      1734319,
-      1731626
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "Lighter-than-air craft encountering sudden meteorological shifts near the surface, causing the canopy to drape over residential structures or heavy machinery.",
-    "expected_acns": [
-      1927892,
-      1898572,
-      1951174
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "Aviators ending up on incorrect or closed pavement surfaces because the asphalt lines were barely visible or the navigational placards were inadequate.",
-    "expected_acns": [
-      1806940,
-      1948886,
-      1906922
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "Non-aircraft tarmac traffic ignoring right-of-way rules at intersections, compelling the flight deck to perform harsh stops to prevent a ground collision.",
-    "expected_acns": [
-      1795404,
-      1952659,
-      1961972
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "The second-in-command losing consciousness and collapsing in the front preparation area, forcing the captain to handle the remainder of the high-altitude transit solo.",
-    "expected_acns": [
-      1716103
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  },
-  {
-    "query": "A traveler suffering from acute gastrointestinal sickness mid-flight, prompting the cabin staff to clear the aft area, originally feared to be a highly contagious virus but later attributed to over-imbibing.",
-    "expected_acns": [
-      1766047
-    ],
-    "type": "conceptual",
-    "anchor_tokens": []
-  }
+  {"query": "Crew responding to a TCAS resolution advisory on final approach, executing a missed approach because the alert came late and ATC never called the traffic.", "expected_acns": [1733678], "type": "exact_token", "anchor_tokens": ["TCAS RA"]},
+  {"query": "A resolution advisory shortly after departure that commanded a descent and triggered a ground proximity 'don't sink' alert.", "expected_acns": [1732916], "type": "exact_token", "anchor_tokens": ["TCAS RA", "GPWS"]},
+  {"query": "Air carrier landing where a TCAS RA was immediately followed by a wind shear warning, forcing an evasive maneuver and a re-sequence.", "expected_acns": [1840323], "type": "exact_token", "anchor_tokens": ["TCAS RA", "WIND SHEAR"]},
+  {"query": "Tower controller observing a near mid-air between two arrivals after one of them maneuvered to comply with a TCAS RA.", "expected_acns": [1916994], "type": "exact_token", "anchor_tokens": ["TCAS RA"]},
+  {"query": "Air carrier approach where the crew got a terrain warning from a ground proximity system after crossing a mountain peak at a high descent rate.", "expected_acns": [1792528], "type": "exact_token", "anchor_tokens": ["GPWS"]},
+  {"query": "B737 crew getting a controlled-flight-toward-terrain caution during a night visual approach.", "expected_acns": [1716462], "type": "exact_token", "anchor_tokens": ["GPWS", "CFTT"]},
+  {"query": "Inspector reporting the station had no one qualified to do a CFM56-7B fan blade replacement, so a qualified person was sent from elsewhere.", "expected_acns": [1852135], "type": "exact_token", "anchor_tokens": ["CFM56-7B"]},
+  {"query": "Engine fan exit guide vane assembly on a widebody found damaged beyond repair and scrapped.", "expected_acns": [1826087], "type": "exact_token", "anchor_tokens": ["PW4000", "Fan Exit Guide Vane"]},
+  {"query": "Part 107 drone operator who completed a mission in controlled airspace but failed to actually submit the LAANC request they had prepared.", "expected_acns": [1891680], "type": "exact_token", "anchor_tokens": ["LAANC", "Part 107"]},
+  {"query": "Recreational drone flier who only discovered after landing that they had operated without proper LAANC authorization.", "expected_acns": [1941110], "type": "exact_token", "anchor_tokens": ["LAANC"]},
+  {"query": "Drone pilot who flew into an active temporary flight restriction because they misunderstood their LAANC authorization.", "expected_acns": [1866178], "type": "exact_token", "anchor_tokens": ["LAANC", "TFR"]},
+  {"query": "Autopilot in lateral navigation mode capturing a false localizer signal and being slow to react, causing a track deviation on approach.", "expected_acns": [1770840], "type": "exact_token", "anchor_tokens": ["LNAV", "localizer"]},
+  {"query": "B737 approach where the autopilot made an unexpected large-angle turn while trying to intercept the course.", "expected_acns": [1756167], "type": "exact_token", "anchor_tokens": ["LNAV"]},
+  {"query": "Flight crew finding out two days later they had carried undeclared lithium-ion cargo that went into thermal runaway downline.", "expected_acns": [1747654], "type": "exact_token", "anchor_tokens": ["lithium", "thermal runaway"]},
+  {"query": "Captain discovering post-flight that their copy of the dangerous-goods notification to the captain had been removed before departure.", "expected_acns": [1928526], "type": "exact_token", "anchor_tokens": ["NOTOC"]},
+
+  {"query": "Pilots entering the wrong navigation fix into the flight computer because two waypoints in the same area had nearly identical names.", "expected_acns": [1852371, 1942301, 1895732], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A ramp worker refusing a supervisor's instruction to clean up a leaking hazardous-materials package, citing lack of required training.", "expected_acns": [1874854], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Regional jet that failed to pressurize during climb because maintenance left a ground valve open.", "expected_acns": [1714952], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Twin-turboprop losing cabin pressure in climb because the engine bleed air switches were never turned back on after a bleeds-off takeoff.", "expected_acns": [1720974], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A blown main gear tire during landing rollout that damaged the underside of the wing.", "expected_acns": [1715592], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A trainer who blew a nosewheel tire on landing and had to steer onto the grass because the aircraft was shimmying violently.", "expected_acns": [1716263], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Crew testing an engine fluid issue on the ramp who then pushed back and departed without obtaining the final maintenance sign-off.", "expected_acns": [1780942], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A light aircraft suffering total electrical failure at night, leaving the pilot reliant on a flashlight and forced to divert.", "expected_acns": [1714843, 1716553], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Data-entry keyboards at an air traffic facility malfunctioning after being over-sprayed during pandemic cleaning.", "expected_acns": [1800020], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A flight instructor physically striking a student to make them release the controls during the takeoff roll.", "expected_acns": [1809415], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Crew descending below a charted crossing-altitude restriction because the way they managed the flight guidance system for a speed request defeated the constraint.", "expected_acns": [1779610, 1905969], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Passengers carrying spare lithium batteries into cargo or checked bags without declaring them, slipping past gate screening.", "expected_acns": [1795879, 1942028, 1884838, 1747654], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Multiple airliners pushed back into the same ramp alley at once, blocking each other and creating tail-clearance hazards.", "expected_acns": [1772747, 1894027], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Military jets leaving their operating area and descending into civilian airspace without a radar handoff.", "expected_acns": [1783749, 1869827], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A bird ingested into an engine right at takeoff, causing heavy vibration and a return to the airport with the gear left down.", "expected_acns": [1734319, 1731626], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Hot air balloon blown by a sudden wind shift on landing into a tree, a roof, or other obstacle.", "expected_acns": [1927892, 1898572, 1951174], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Pilots ending up on the wrong or a closed taxiway because the painted lines were faded and signage was poor.", "expected_acns": [1806940, 1948886, 1906922, 1875127], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Ground support vehicles failing to yield at a taxiway crossing, forcing an aircraft to brake hard to avoid a collision.", "expected_acns": [1795404, 1952659, 1961972], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A first officer becoming incapacitated at cruise, leaving the captain to fly alone.", "expected_acns": [1716103], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Cabin crew dealing with a sick passenger feared contagious but ultimately attributed to over-drinking.", "expected_acns": [1766047], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A regional jet returning to land after takeoff because the landing gear would not retract.", "expected_acns": [1717857], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Smoke or a burning smell coming from the control yoke on departure, prompting a return to land.", "expected_acns": [1714863], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Cabin fumes making flight attendants physically ill enough to need hospital treatment after a gate return.", "expected_acns": [1716834], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A rejected takeoff caused by one engine's acceleration lagging badly.", "expected_acns": [1714987], "type": "conceptual", "anchor_tokens": []},
+  {"query": "An engine failure in cruise on a light business jet leading to a single-engine diversion.", "expected_acns": [1715402], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A loud bang and visible engine damage when throttles were pulled back for descent, ending in a single-engine landing.", "expected_acns": [1715422], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A widebody crew getting a cargo door warning in cruise and turning back.", "expected_acns": [1717169], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A maintenance technician finding a tool left behind inside the engine area during a later inspection.", "expected_acns": [1747114], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A technician inadvertently discharging an engine fire-extinguisher bottle during maintenance.", "expected_acns": [1807665], "type": "conceptual", "anchor_tokens": []},
+  {"query": "An aircraft that flew in revenue service while unairworthy because ground damage was never properly evaluated.", "expected_acns": [1715162], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A near mid-air collision in the training traffic pattern when another aircraft overflew and cut in.", "expected_acns": [1717891, 1897945, 1894634], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A helicopter forced to take evasive action because another aircraft was cleared onto the same runway from the opposite end.", "expected_acns": [1773796], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A helicopter that had to autorotate to a lower altitude after an ATC turn instruction put it head-on with faster traffic.", "expected_acns": [1935748], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Air carrier on final spotting a lighted drone off the wing at night and reporting it to the tower.", "expected_acns": [1866425, 1811687, 1800957], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A recreational drone operator hearing a fast-approaching helicopter and diving to land to avoid a collision.", "expected_acns": [1968489, 1845815], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A drone exceeding its authorized altitude while climbing near Class C airspace.", "expected_acns": [1807875], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Controllers losing communication with a large drone, leaving its return-to-home plan unclear and causing a conflict.", "expected_acns": [1918380], "type": "conceptual", "anchor_tokens": []},
+  {"query": "An air ambulance helicopter having a near miss while crossing a non-towered field with a patient aboard.", "expected_acns": [2182338], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A near mid-air on final at a busy airport with a helicopter lifting off from a nearby hospital pad, resulting in an RA and go-around.", "expected_acns": [1947048], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A balloon that had a mid-air with a drone, which damaged the envelope and struck the pilot in the head.", "expected_acns": [1797262], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A CRJ encountering severe turbulence that injured the flight crew.", "expected_acns": [1715736], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A CRJ on departure trailing an A321 hitting wake turbulence strong enough to trigger the stick shaker.", "expected_acns": [1850019], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A go-around prompted by encountering both wind shear and wake turbulence on approach in a turboprop.", "expected_acns": [1723608], "type": "conceptual", "anchor_tokens": []},
+  {"query": "Crew taking off with the wrong flap setting after a rushed runway change and high pre-departure workload.", "expected_acns": [1716040], "type": "conceptual", "anchor_tokens": []},
+  {"query": "An A320 losing braking on an icy ramp.", "expected_acns": [1716026], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A pilot landing without a clearance.", "expected_acns": [1715281], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A green laser shone into the cockpit in flight that affected someone's vision.", "expected_acns": [1755278], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A possible GPS jamming event reported by a widebody crew in cruise.", "expected_acns": [1715022], "type": "conceptual", "anchor_tokens": []},
+  {"query": "An air carrier crew beginning taxi with the ground crew's headset still plugged into the aircraft.", "expected_acns": [1903846], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A wingtip striking an awning support because the marshaller's parking guidance led the aircraft too close.", "expected_acns": [1938993], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A baggage cart striking a parked aircraft on the ramp.", "expected_acns": [1919958], "type": "conceptual", "anchor_tokens": []},
+  {"query": "An obstacle tower near the approach end of a runway that is missing from the charts and from NOTAMs.", "expected_acns": [1850673], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A solo student turning base too early after misunderstanding ATC, causing a near mid-air.", "expected_acns": [1941640], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A flight attendant missing the takeoff PA and remaining unseated because of a dispute over a passenger's mask exemption.", "expected_acns": [1750962], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A gear-up landing.", "expected_acns": [1761576], "type": "conceptual", "anchor_tokens": []},
+  {"query": "An air carrier altitude or speed deviation where the captain blamed reduced recent flying during the pandemic slowdown.", "expected_acns": [1805069, 1741165, 1796147], "type": "conceptual", "anchor_tokens": []},
+  {"query": "A small aircraft losing nav and comm at night when an alternator breaker tripped, recovered by resetting it.", "expected_acns": [1716553], "type": "conceptual", "anchor_tokens": []}
 ]

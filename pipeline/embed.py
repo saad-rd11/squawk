@@ -19,18 +19,24 @@ logger = logging.getLogger(__name__)
 
 class DenseEmbedder:
     def __init__(
-        self, model_name: str = "BAAI/bge-base-en-v1.5", batch_size: int = 256
+        self,
+        model_name: str = "BAAI/bge-base-en-v1.5",
+        batch_size: int = 256,
+        max_length: int = 512,
     ):
-        self.model = TextEmbedding(model_name=model_name, max_length=512)
+        self.model = TextEmbedding(model_name=model_name, max_length=max_length)
         self.batch_size = batch_size
 
-    def embed(self, texts: list[str]) -> list[list[float]]:
+    def embed(self, texts: list[str], mode: str | None = None) -> list[list[float]]:
         results: list[list[float]] = []
         batches = list(self._batches(texts))
         total = len(batches)
+        kwargs = {}
+        if mode is not None:
+            kwargs["mode"] = mode
         for i, batch in enumerate(batches, 1):
             logger.info("Dense embedding batch %d/%d", i, total)
-            for vec in self.model.embed(batch):
+            for vec in self.model.embed(batch, **kwargs):
                 results.append(vec.tolist())
         return results
 
