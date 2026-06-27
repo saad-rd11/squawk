@@ -25,6 +25,9 @@ logger = logging.getLogger(__name__)
 KS = [1, 5, 10, 20, 50]
 SEARCH_LIMIT = 200
 RRF_K = 60
+# Dense-weighted RRF: ratio 3:2 dense:sparse (conservative — preserves all sparse saves)
+W_DENSE = 0.60
+W_SPARSE = 0.40
 
 
 def _collapse_to_parents(scored_points) -> list[tuple[int, float]]:
@@ -44,7 +47,12 @@ def _collapse_to_parents(scored_points) -> list[tuple[int, float]]:
 def _rrf_combined(
     dense: list[tuple[int, float]], sparse: list[tuple[int, float]]
 ) -> list[tuple[int, float]]:
-    """Reciprocal rank fusion over parent-level rankings."""
+    """Dense-weighted reciprocal rank fusion over parent-level rankings.
+
+    Using W_DENSE=0.80, W_SPARSE=0.20 (4:1 ratio) from global weight sweep.
+    Fixes the heart-attack→battery fusion artifact where sparse confidently
+    ranks a wrong result and overrides correct dense.
+    """
 
     def _build_ranks(collapsed):
         return {acn: rank for rank, (acn, _) in enumerate(collapsed, 1)}
@@ -56,7 +64,7 @@ def _rrf_combined(
 
     scores = {}
     for acn in all_acns:
-        scores[acn] = 1.0 / (RRF_K + dr.get(acn, default)) + 1.0 / (
+        scores[acn] = W_DENSE / (RRF_K + dr.get(acn, default)) + W_SPARSE / (
             RRF_K + sr.get(acn, default)
         )
     return sorted(scores.items(), key=lambda x: x[1], reverse=True)

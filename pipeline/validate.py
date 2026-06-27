@@ -59,7 +59,7 @@ class ChildPointPayload(BaseModel):
     @field_validator("narrative_source")
     @classmethod
     def source_valid(cls, v):
-        if v not in ("captain", "first_officer"):
+        if v not in ("captain", "first_officer", "synopsis"):
             raise ValueError(f"unknown narrative_source: {v}")
         return v
 

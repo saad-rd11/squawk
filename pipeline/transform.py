@@ -215,6 +215,7 @@ def transform_row(
     )
 
     chunks = chunk_text(narrative, max_chars=config.chunk_max_chars)
+    total_child_points = len(chunks) + 1  # captain chunks + synopsis
     child_points: list[ChildPoint] = []
     for c_idx, chunk in enumerate(chunks):
         child_id = f"asrs_{report_id}_n{c_idx}"
@@ -233,7 +234,7 @@ def transform_row(
             "parent_id": parent_point.id,
             "narrative_source": "captain",
             "chunk_index": c_idx,
-            "chunk_total": len(chunks),
+            "chunk_total": total_child_points,
             "context_prefix": prefix,
             "chunk": chunk,  # raw chunk — composed with prefix at embed time
         }
@@ -245,6 +246,49 @@ def transform_row(
                 vector=config.dense_model,
                 sparse=config.sparse_model,
                 payload=child_payload,
+            )
+        )
+
+    # ── Synopsis child point (augmented) ─────────────────────────
+    if synopsis:
+        synopsis_child_id = f"asrs_{report_id}_s0"
+
+        aug_parts = []
+        if flight_phase:
+            aug_parts.append(f"[Flight Phase: {', '.join(flight_phase)}]")
+        if anomaly_plain:
+            aug_parts.append(f"[Anomaly: {', '.join(anomaly_plain)}]")
+        if operator_val:
+            aug_parts.append(f"[Operator: {operator_val}]")
+        if primary_problem:
+            aug_parts.append(f"[Problem: {primary_problem}]")
+        aug_parts.append(synopsis)
+        augmented_synopsis = " ".join(aug_parts)
+
+        synopsis_payload_data: dict[str, Any] = {
+            "report_id": report_id,
+            "year": year,
+            "aircraft_models": aircraft_models,
+            "aircraft_family": aircraft_family,
+            "manufacturer": manufacturer,
+            "flight_phase": flight_phase,
+            "anomaly": anomaly_codes,
+            "operator": operator_val,
+            "state": state,
+            "parent_id": parent_point.id,
+            "narrative_source": "synopsis",
+            "chunk_index": -2,
+            "chunk_total": total_child_points,
+            "context_prefix": "",
+            "chunk": augmented_synopsis,
+        }
+        synopsis_payload = validate_payload_child(synopsis_payload_data)
+        child_points.append(
+            ChildPoint(
+                id=synopsis_child_id,
+                vector=config.dense_model,
+                sparse=config.sparse_model,
+                payload=synopsis_payload,
             )
         )
 

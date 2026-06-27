@@ -144,6 +144,34 @@ Two BM25 configs beat k=60 overall: `w_sparse_exac=0.5 w_dense_conc=0.7` (overal
 
 ---
 
+## Reranker Test: ColBERT Late Interaction (answerai-colbert-small-v1)
+
+Candidates: Combined (RRF k=60) top-50 parent narratives. Queries: 15 low-leakage conceptual. Model dim=96.
+
+| Q# | Leak% | C@1 | Col@1 | MRR before | MRR after | ΔMRR |
+|----|-------|-----|-------|-----------|----------|------|
+| Q17 | 35% | 1 | 1 | 1.0000 | 1.0000 | 0 |
+| Q24 | 21% | 1 | 1 | 1.0000 | 1.0000 | 0 |
+| Q37 | 31% | 2 | 1 | 0.5000 | 1.0000 | +0.5000 |
+| Q38 | 31% | 5 | 4 | 0.2000 | 0.2500 | +0.0500 |
+| Q42 | 25% | 1 | 1 | 1.0000 | 1.0000 | 0 |
+| Q44 | 30% | 1 | 1 | 1.0000 | 1.0000 | 0 |
+| Q48 | 26% | 25 | 13 | 0.0400 | 0.0769 | +0.0369 |
+| Q51 | 25% | 12 | 11 | 0.0833 | 0.0909 | +0.0076 |
+| Q52 | 20% | 5 | 3 | 0.2000 | 0.3333 | +0.1333 |
+| Q53 | 33% | 31 | 12 | 0.0323 | 0.0833 | +0.0511 |
+| Q60 | 14% | 1 | 1 | 1.0000 | 1.0000 | 0 |
+| Q61 | 20% | miss | miss | 0.0000 | 0.0000 | 0 |
+| Q66 | 11% | miss | miss | 0.0000 | 0.0000 | 0 |
+| Q70 | 33% | 2 | 4 | 0.5000 | 0.2500 | -0.2500 |
+| Q71 | 35% | 4 | 7 | 0.2500 | 0.1429 | -0.1071 |
+
+**Summary:** Combined MRR: 0.4537 → ColBERT: **0.4818** (Δ = +0.0281, +6.2% relative). Improved: 6/15. Worsened: 2/15. Tied: 7/15.
+
+ColBERT helps modestly on low-leakage conceptual queries. Gains are real: Q37 (2→1), Q53 (31→12), Q48 (25→13), Q52 (5→3). Two queries are unreachable (Q61, Q66 — first-stage recall failure). Two regress slightly (Q70 2→4, Q71 4→7). The post-rerank low-leak MRR (0.482) is still far below high-leakage (0.851) — late interaction does not close the paraphrase-vocabulary gap.
+
+---
+
 ## Step 5: Leakage-Stratified Results
 
 **Threshold:** Low-leak = token overlap ≤ 35.3% (corpus avg). High-leak = above 35.3%.
